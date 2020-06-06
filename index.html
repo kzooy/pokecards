@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+.w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+.fa-anchor,.fa-coffee {font-size:200px}
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-dark-grey w3-card w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-dark-grey" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Link 1</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Link 2</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Link 3</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Link 4</a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 1</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 2</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 3</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 4</a>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="w3-container w3-center w3-dark-grey" style="padding:128px 16px">
+  <h1 class="w3-margin w3-jumbo">Pokemon Cards</h1>
+  <p class="w3-xlarge">Template by w3.css, and eddited by kzooy</p>
+  
+  <header class="w3-container  w3-center w3-light-grey" style="padding:12px 16px "> <h3> Retro | Decks | Card Analysis </h3> </header>
+  
+</header>
+
+
+
+<!-- First Grid -->
+<div class="w3-row-padding w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-twothird">
+	
+	
+      <h1>Retro Cards</h1>
+	  
+	  
+      <h5 class="w3-padding-32">retro pokemon cards, there very diffeent from the newwer cards, 120 HP and 80 damage is a enoumous amout of damage, lets find the wonders of the retro cards</h5>
+
+      <p class="w3-text-grey"><h6> now retro cards were very diffferent from todays fancy EX GX and V cards, the strongrst cards were all about strategizing, not brute force, with hecktic energy remouvle and haymaker [one of the strongest deck] loads of trainer cards, as much as you want per turn. eveloution decks were very bad (except rain dance) and base set had the holo charizard, even better then any fancy "hyper rares" and "gold cards." overall, base set was more than you might think. </h6></p>
+    </div>
+
+    <div class="w3-third w3-center">
+      <i class="fa w3-padding-64 w3-text-red"> <img src="turtle_card.jpg" alt="image" height="400" width="310"/> </i>
+    </div>
+  </div>
+</div>
+
+<!-- Second Grid -->
+<div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-third w3-center">
+      <i class="fa fa-coffee w3-padding-64 w3-text-red w3-margin-right"></i>
+    </div>
+
+    <div class="w3-twothird">
+      <h1>Decks</h1>
+      <h5 class="w3-padding-32">Decks can be vary iconic, rain-dance, stall and the winner, haymaker. Wonder how they work? well i'll explain</h5>
+
+      <p class="w3-text-grey">So we will cover loads of decks from weird abilitys to buff shuckels (i love shuckels). we know loads of decks rain-dance downpour haymaker lickithung stall nurse stall and Buzzapdos. With decks from <a href="https://jklaczpokemon.wordpress.com/">proffesinal websites </a> to <a href="https://kzooy.github.io/">my other website.</a> i hope you like them. </p>
+    </div>
+  </div>
+</div>
+
+
+
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity">  
+  <div class="w3-xlarge w3-padding-32">
+  
+    <i class="w3-hover-opacity"> <p>Discord<p> </i>
+	
+ </div>
+ <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp"  target="_blank">w3.css</a></p>
+</footer>
+
+<script>
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
+
+
+</body>
+</html>
